@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet" />
+    <title>Surpresa para Zayra</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Bem-vinda, Zayra!</h1>
+        <p>Uma surpresa cheia de amor e memórias.</p>
+        <a href="#fotos" class="btn">Ver Nossas Fotos</a>
+    </header>
+
+    <section id="intro" class="animate__animated animate__fadeIn">
+        <h2>Olá, Meu Amor!</h2>
+        <p>Essa é uma pequena surpresa que preparei para você, cheia de lembranças e sentimentos. Espero que você goste!</p>
+    </section>
+
+    <section id="fotos">
+        <h2>Nossas Fotos</h2>
+        <div class="galeria">
+            <a href="foto1.jpg" data-lightbox="galeria" data-title="Uma lembrança especial"><img src="foto1.jpg" alt="Foto 1 de nós dois"></a>
+            <a href="foto2.jpg" data-lightbox="galeria" data-title="Momentos felizes"><img src="foto2.jpg" alt="Foto 2 de nós dois"></a>
+            <a href="foto3.jpg" data-lightbox="galeria" data-title="Nosso lugar favorito"><img src="foto3.jpg" alt="Foto 3 de nós dois"></a>
+            <a href="foto4.jpg" data-lightbox="galeria" data-title="Rindo juntos"><img src="foto4.jpg" alt="Foto 4 de nós dois"></a>
+            <a href="foto5.jpg" data-lightbox="galeria" data-title="Aventuras de verão"><img src="foto5.jpg" alt="Foto 5 de nós dois"></a>
+            <a href="foto6.jpg" data-lightbox="galeria" data-title="Um dia inesquecível"><img src="foto6.jpg" alt="Foto 6 de nós dois"></a>
+            <a href="foto7.jpg" data-lightbox="galeria" data-title="Amor e alegria"><img src="foto7.jpg" alt="Foto 7 de nós dois"></a>
+        </div>
+    </section>
+
+    <section id="declaracoes" class="animate__animated animate__bounceIn">
+        <h2>Minhas Declarações para Você</h2>
+        <p>Eu amo o jeito que você me faz sentir.</p>
+        <p>Você é a razão do meu sorriso todos os dias.</p>
+        <p>Amo cada momento que passamos juntos.</p>
+        <p>Obrigado por ser quem você é.</p>
+    </section>
+
+    <section id="eu-amo">
+        <h2>Eu Amo</h2>
+        <p>Você não é a primeira pessoa por quem eu namoro, mas eu espero que seja a última, porque eu simplesmente amo tudo em você, tudo mesmo.</p>
+        <ul>
+            <li>EU AMO o seu jeito</li>
+            <li>EU AMO as suas manias</li>
+            <li>EU AMO seus olhos</li>
+            <li>EU AMO o seu sorriso</li>
+            <li>EU AMO seus cachos</li>
+            <li>EU AMO sua voz</li>
+            <li>EU AMO seus abraços</li>
+            <li>EU AMO sua mão envolta da minha cintura</li>
+            <li>EU AMO suas mãos entre as minhas coxas</li>
+            <li>EU AMO ouvir o seu "eu te amo"</li>
+            <li>EU AMO ficar do seu lado</li>
+            <li>EU AMO cada momento que eu tenho contigo</li>
+            <li>EU AMO as nossas provocações em público</li>
+            <li>EU AMO o jeito que você me olha</li>
+            <li>EU AMO conversar com você</li>
+            <li>EU AMO o jeito que você me intimida</li>
+            <li>EU AMO seu corpo</li>
+            <li>EU AMO suas mensagens aleatórias que só eu e você entendemos</li>
+            <li>EU AMO a sua risada</li>
+            <li>EU AMO o jeito que você fala "mim"</li>
+            <li>EU AMO o seu cheiro doce.</li>
+        </ul>
+        <p>Eu poderia falar tantas coisas que eu amo em você, mas tem uma coisa que eu não posso esquecer: EU AMO te amar.</p>
+    </section>
+
+    <section id="musica">
+        <h2>Nossa Música Especial</h2>
+        <audio controls autoplay loop>
+            <source src="musica.mp3" type="audio/mpeg">
+            Seu navegador não suporta a reprodução de áudio.
+        </audio>
+    </section>
+
+    <section id="planos">
+        <h2>Nossos Planos Futuros</h2>
+        <ul>
+            <li>Juntos, queremos viajar o mundo, construir uma linda família e viver muitas aventuras.</li>
+            <li>Falta colocar.</li>
+            <li>Falta colocar.</li>
+            <li>Falta colocar.</li>
+        </ul>
+    </section>
+
+    <section id="calendario">
+        <h2>Nossas Datas Importantes</h2>
+        <ul>
+            <li>00/00/0000 - Primeiro Encontro</li>
+            <li>00/00/0000 - Dia dos Namorados</li>
+            <li>00/00/0000 - Viagem para a Praia</li>
+        </ul>
+    </section>
+
+    <section id="quiz">
+        <h2>Quiz sobre Nós!</h2>
+        <p>Qual é o nosso filme favorito?</p>
+        <button onclick="verificarResposta('A')">A. </button>
+        <button onclick="verificarResposta('B')">B. </button>
+        <button onclick="verificarResposta('C')">C.</button>
+        <div id="resultado"></div>
+    </section>
+
+    <section id="sonhos">
+        <h2>Nossos Sonhos Juntos</h2>
+        <ul>
+            <li>Falta colocar.</li>
+            <li>Falta colocar.</li>
+            <li>Falta colocar.</li>
+            <li>Falta colocar.</li>
+        </ul>
+    </section>
+
+    <div class="parallax"></div>
+
+    <footer>
+        <p>Espero que você tenha gostado!</p>
+        <p>Com amor, seu namorado Henrique.</p>
+    </footer>
+</body>
+</html>
